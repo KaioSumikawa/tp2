@@ -1,5 +1,13 @@
-#Exemplo for Append para adicionar os valores a lista
-
-numeros=[]
+# Exemplo for append para adicionar valores a lista
+ 
+numeros = []
+ 
 for i in range(1,5):
-    n = int(input(f"Digite o {i}"))
+    numero = int(input(f"Digite o {i}º número da lista: "))
+    numeros.append(numero)
+ 
+print(f"Lista = {numeros}")
+ 
+print("numeros digitados: ")
+for i in numeros:
+    print(i)
